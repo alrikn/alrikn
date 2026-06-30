@@ -59,7 +59,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=omni&hide_border=false&include_all_commits=true&count_private=true
           path: my_stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
 

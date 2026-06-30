@@ -18,3 +18,24 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+# Test readme
+
+
+
+Half year metrics:
+
+![MyStats](my_stats.svg)
+
+![Metrics](metrics.isocalendar.halfyear.svg)
+
+Last 3 years metrics:
+![Metrics](metrics.plugin.calendar.full.svg)
+
+My projects (starlist)
+![Starlist](metrics.plugin.starlists.svg)
+
+My project languages
+![Languages](metrics.plugin.starlists.languages.svg)
+
+
