@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="profile/my_stats.svg" height="140" />
-  <img src="profile/streak.svg" height="140" />
+  <img src="profile/my_stats.svg" height="145" />
+  <img src="profile/streak.svg" height="145" />
 </div>
 
 ---
@@ -32,7 +32,7 @@
 
 **More of my projects**
 
-Here are some of the repos I've built and starred — a mix of tools, experiments, and things I'm proud of.
+Here are some of the repos I've built and starred. It's a mix of tools, experiments, and things I'm proud of.
 
 ![Starlist](profile/metrics.plugin.starlists.svg)
 
