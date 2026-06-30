@@ -77,7 +77,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p profile
           git add profile/*.svg
-          git add *.svg
+          git add --ignore-errors *.svg
           git commit -m "Update README cards" || exit 0
           git push
 
