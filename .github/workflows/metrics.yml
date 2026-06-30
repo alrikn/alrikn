@@ -21,14 +21,6 @@ jobs:
           plugin_isocalendar_duration: half-year
 
 
-      - name: Current year calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_calendar: yes
-
       - name: Last 3 years calendar
         uses: lowlighter/metrics@latest
         with:
@@ -45,8 +37,8 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_starlists: yes
-          plugin_starlists_limit_repositories: 2
-          plugin_starlists_only: TC39
+          plugin_starlists_limit_repositories: 10
+          plugin_starlists_only: MyCoolProjects
 
       - name: Featured star list languages test
         uses: lowlighter/metrics@latest
