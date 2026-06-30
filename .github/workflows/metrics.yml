@@ -75,10 +75,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p profile
-          git add --ignore-errors profile/*.svg
-          git add --ignore-errors *.svg
-          git commit -m "Update README cards" || exit 0
+          git add my_stats.svg pin-stats-organization-github-readme-stats.svg
+          git diff --staged --quiet || git commit -m "Update stats cards - [Skip GitHub Action]"
           git push
 
 
