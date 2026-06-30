@@ -14,7 +14,7 @@ jobs:
       - name: Half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.isocalendar.halfyear.svg
+          filename: profile/metrics.isocalendar.halfyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -24,7 +24,7 @@ jobs:
       - name: Last 3 years calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.calendar.full.svg
+          filename: profile/metrics.plugin.calendar.full.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_calendar: yes
@@ -33,7 +33,7 @@ jobs:
       - name: Featured star list test
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.starlists.svg
+          filename: profile/metrics.plugin.starlists.svg
           token: NOT_NEEDED
           base: ""
           plugin_starlists: yes
@@ -43,7 +43,7 @@ jobs:
       - name: Featured star list languages test
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.starlists.languages.svg
+          filename: profile/metrics.plugin.starlists.languages.svg
           token: NOT_NEEDED
           base: ""
           plugin_starlists: yes
@@ -60,21 +60,21 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=omni&hide_border=false&include_all_commits=true&count_private=true
-          path: my_stats.svg
+          path: profile/my_stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           options: user=${{ github.repository_owner }}&theme=omni&hide_border=false&disable_animations=true
-          path: streak.svg
+          path: profile/streak.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add my_stats.svg streak.svg
+          git add profile/my_stats.svg profile/streak.svg
           git diff --staged --quiet || git commit -m "Update stats cards - [Skip GitHub Action]"
           git pull --rebase origin main
           git push

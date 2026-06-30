@@ -1,19 +1,19 @@
 <div align="center">
-  <img src="my_stats.svg" height="110" />
-  <img src="streak.svg" height="110" />
+  <img src="profile/my_stats.svg" height="120" />
+  <img src="profile/streak.svg" height="120" />
 </div>
 
 Half year metrics:
 
-![Metrics](metrics.isocalendar.halfyear.svg)
+![Metrics](profile/metrics.isocalendar.halfyear.svg)
 
 Last 3 years metrics:
-![Metrics](metrics.plugin.calendar.full.svg)
+![Metrics](profile/metrics.plugin.calendar.full.svg)
 
 My projects (starlist)
-![Starlist](metrics.plugin.starlists.svg)
+![Starlist](profile/metrics.plugin.starlists.svg)
 
 My project languages
-![Languages](metrics.plugin.starlists.languages.svg)
+![Languages](profile/metrics.plugin.starlists.languages.svg)
 
 
