@@ -50,7 +50,7 @@ jobs:
           plugin_starlists_languages: yes
           plugin_starlists_limit_languages: 8
           plugin_starlists_limit_repositories: 0
-          plugin_starlists_only: Awesome
+          plugin_starlists_only: MyCoolProjects
 
       - name: Checkout
         uses: actions/checkout@v6
@@ -76,7 +76,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p profile
-          git add profile/*.svg
+          git add --ignore-errors profile/*.svg
           git add --ignore-errors *.svg
           git commit -m "Update README cards" || exit 0
           git push
