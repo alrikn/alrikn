@@ -68,7 +68,7 @@ jobs:
         with:
           options: user=${{ github.repository_owner }}&theme=omni&hide_border=false&disable_animations=true
           path: streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Commit cards
         run: |
