@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="my_stats.svg" height="195" />
-  <img src="streak.svg" height="195" />
+  <img src="my_stats.svg" height="110" />
+  <img src="streak.svg" height="110" />
 </div>
 
 Half year metrics:
