@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="profile/my_stats.svg" height="130" />
-  <img src="profile/streak.svg" height="130" />
+  <img src="profile/my_stats.svg" height="140" />
+  <img src="profile/streak.svg" height="140" />
 </div>
 
 ---
