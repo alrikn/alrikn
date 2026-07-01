@@ -74,7 +74,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=alrikn&repo=Zappy
+          options: username=alrikn&repo=Zappy&theme=omni&hide_border=false
           path: profile/test_repo_pin.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
