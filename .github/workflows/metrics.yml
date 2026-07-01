@@ -11,6 +11,9 @@ jobs:
       contents: write
     steps:
 
+      - name: Checkout
+        uses: actions/checkout@v6
+
       - name: Half-year calendar
         uses: lowlighter/metrics@latest
         with:
@@ -19,7 +22,6 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
 
       - name: Last 3 years calendar
         uses: lowlighter/metrics@latest
@@ -30,7 +32,7 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 3
 
-      - name: Featured star list test
+      - name: Featured star list
         uses: lowlighter/metrics@latest
         with:
           filename: profile/metrics.plugin.starlists.svg
@@ -40,7 +42,7 @@ jobs:
           plugin_starlists_limit_repositories: 10
           plugin_starlists_only: MyCoolProjects
 
-      - name: Featured star list languages test
+      - name: Featured star list languages
         uses: lowlighter/metrics@latest
         with:
           filename: profile/metrics.plugin.starlists.languages.svg
@@ -52,8 +54,50 @@ jobs:
           plugin_starlists_limit_repositories: 0
           plugin_starlists_only: MyCoolProjects
 
-      - name: Checkout
-        uses: actions/checkout@v6
+      - name: Update README with pin cards
+        run: |
+          python3 << 'EOF'
+          import re
+
+          with open('profile/metrics.plugin.starlists.svg', 'r') as f:
+              content = f.read()
+
+          repos = re.findall(r'<span>([^<\s]+/[^<\s]+)</span>', content)
+          seen = set()
+          unique_repos = []
+          for repo in repos:
+              if repo not in seen:
+                  seen.add(repo)
+                  unique_repos.append(repo)
+
+          lines = []
+          for i in range(0, len(unique_repos), 2):
+              pair = unique_repos[i:i+2]
+              for repo in pair:
+                  owner, name = repo.split('/', 1)
+                  url = f'https://github.com/{owner}/{name}'
+                  img = f'https://github-readme-stats.vercel.app/api/pin/?username={owner}&repo={name}&theme=omni'
+                  lines.append(f'<a href="{url}"><img src="{img}" /></a>')
+              lines.append('')
+
+          html = '\n'.join(lines).strip()
+
+          with open('README.md', 'r') as f:
+              readme = f.read()
+
+          new_section = f'<!-- STARLISTS:START -->\n{html}\n<!-- STARLISTS:END -->'
+          readme = re.sub(
+              r'<!-- STARLISTS:START -->.*?<!-- STARLISTS:END -->',
+              new_section,
+              readme,
+              flags=re.DOTALL
+          )
+
+          with open('README.md', 'w') as f:
+              f.write(readme)
+
+          print(f"Updated README.md with {len(unique_repos)} pin cards")
+          EOF
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -70,22 +114,11 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Generate pin card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=alrikn&repo=Zappy&theme=omni&hide_border=false
-          path: profile/test_repo_pin.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/my_stats.svg profile/streak.svg profile/test_repo_pin.svg
+          git add --all
           git diff --staged --quiet || git commit -m "Update stats cards - [Skip GitHub Action]"
           git pull --rebase origin main
           git push
-
-
-

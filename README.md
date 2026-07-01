@@ -34,7 +34,8 @@
 
 Here are some of the repos I've built and starred. It's a mix of tools, experiments, and things I'm proud of.
 
-![Starlist](profile/metrics.plugin.starlists.svg)
+<!-- STARLISTS:START -->
+<!-- STARLISTS:END -->
 
 ![Languages](profile/metrics.plugin.starlists.languages.svg)
 
