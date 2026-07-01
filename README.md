@@ -35,7 +35,7 @@
 Here are some of the repos I've built and starred. It's a mix of tools, experiments, and things I'm proud of.
 
 <!-- STARLISTS:START -->
-<a href="https://github.com/alrikn/LogicSim"><img src="https://github-readme-stats.vercel.app/api/pin/?username=alrikn&repo=LogicSim&theme=omni" /></a>
+<a href="https://github.com/alrikn/LogicSim"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=LogicSim&theme=omni" /></a>
 <a href="https://github.com/alrikn/RayTracer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=alrikn&repo=RayTracer&theme=omni" /></a>
 
 <a href="https://github.com/alrikn/my_radar"><img src="https://github-readme-stats.vercel.app/api/pin/?username=alrikn&repo=my_radar&theme=omni" /></a>
