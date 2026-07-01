@@ -48,12 +48,19 @@ Here are some of the repos I've built and starred. It's a mix of tools, experime
 <a href="https://github.com/alrikn/RayTracer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=RayTracer&theme=omni" /></a>
 <!-- STARLISTS:END -->
 
+
+**I write mostly in:**
+
 ![Languages](profile/metrics.plugin.starlists.languages.svg)
 
 ---
 
 **Activity**
 
+What i've been up to in the last 6 months:
+
 ![Metrics](profile/metrics.isocalendar.halfyear.svg)
+
+What i've been up to in the last  3 years:
 
 ![Metrics](profile/metrics.plugin.calendar.full.svg)
