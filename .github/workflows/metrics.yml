@@ -40,6 +40,7 @@ jobs:
             rect.day[fill="#40c463"] { fill: #006d32 !important; }
             rect.day[fill="#30a14e"] { fill: #26a641 !important; }
             rect.day[fill="#216e39"] { fill: #39d353 !important; }
+            .items-wrapper { background: #0d1117 !important; border: 1px solid #30363d !important; border-radius: 6px !important; padding: 12px !important; box-sizing: border-box !important; }
 
       - name: Featured star list
         uses: lowlighter/metrics@latest
