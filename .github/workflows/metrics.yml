@@ -20,6 +20,7 @@ jobs:
           filename: profile/metrics.isocalendar.halfyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          config_display: large
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
