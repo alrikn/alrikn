@@ -35,17 +35,17 @@
 Here are some of the repos I've built and starred. It's a mix of tools, experiments, and things I'm proud of.
 
 <!-- STARLISTS:START -->
-<a href="https://github.com/alrikn/StupidFish"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=StupidFish&theme=omni" /></a>
+<a href="https://github.com/alrikn/my_sudo"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=my_sudo&theme=omni" /></a>
+<a href="https://github.com/alrikn/raycaster_wolf"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=raycaster_wolf&theme=omni" /></a>
+
+<a href="https://github.com/alrikn/RayTracer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=RayTracer&theme=omni" /></a>
 <a href="https://github.com/alrikn/arcade"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=arcade&theme=omni" /></a>
 
-<a href="https://github.com/alrikn/my_sudo"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=my_sudo&theme=omni" /></a>
-<a href="https://github.com/alrikn/RayTracer"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=RayTracer&theme=omni" /></a>
-
-<a href="https://github.com/alrikn/LogicSim"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=LogicSim&theme=omni" /></a>
-<a href="https://github.com/alrikn/minishell"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=minishell&theme=omni" /></a>
-
+<a href="https://github.com/alrikn/StupidFish"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=StupidFish&theme=omni" /></a>
 <a href="https://github.com/alrikn/Zappy"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=Zappy&theme=omni" /></a>
-<a href="https://github.com/alrikn/raycaster_wolf"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=raycaster_wolf&theme=omni" /></a>
+
+<a href="https://github.com/alrikn/minishell"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=minishell&theme=omni" /></a>
+<a href="https://github.com/alrikn/LogicSim"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=LogicSim&theme=omni" /></a>
 <!-- STARLISTS:END -->
 
 
