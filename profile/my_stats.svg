@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">alrik neihouser's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 26, Total Commits  : 3961, Total PRs: 86, Total Issues: 76, Contributed to (last year): 37</desc>
+        <desc id="descId">Total Stars Earned: 26, Total Commits  : 3962, Total PRs: 86, Total Issues: 76, Contributed to (last year): 37</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 85.79990145432343;
+        stroke-dashoffset: 85.79803772108247;
       }
     }
   
