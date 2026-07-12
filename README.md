@@ -8,7 +8,7 @@
 <div align="center">
   <h1>Hey, I'm Alrik</h1>
   <p>I build things: chess engines, ray tracers, logic simulators, shells, and whatever else grabs my attention.</p>
-  <p>2nd year student at Epitech Madrid, working in systems and embedded programming.</p>
+  <p>3rd year student at Epitech Madrid, working in systems and embedded programming.</p>
 </div>
 
 ---
