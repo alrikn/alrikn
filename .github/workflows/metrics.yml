@@ -120,7 +120,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=omni&hide_border=false&disable_animations=true
+          options: user=${{ github.repository_owner }}&theme=omni&hide_border=false
           path: profile/streak.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
