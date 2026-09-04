@@ -15,7 +15,7 @@
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=cpp,python,c,rust,haskell" />
+<img src="https://skillicons.dev/icons?i=cpp,python,c,rust,haskell,go" />
 
 ---
 
