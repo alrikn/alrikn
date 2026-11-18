@@ -32,7 +32,7 @@
 
 **More of my projects**
 
-Here are some of the repos I've built and starred. It's a mix of tools, experiments, and things I'm proud of.
+Here are some of the repos I've built and starred. It's a mix of tools, experiments, things I'm proud of, and plain old fun little projects.
 
 <!-- STARLISTS:START -->
 <a href="https://github.com/alrikn/minishell"><img src="https://github-stats-extended.vercel.app/api/pin/?username=alrikn&repo=minishell&theme=omni" /></a>
