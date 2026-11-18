@@ -23,7 +23,7 @@
                                 </svg>
                                 MyCoolProjects
                             </h2>
-                            <div class="count">9 repositories</div>
+                            <div class="count">10 repositories</div>
                             <div class="description">Some of my projects that i am proud of, found interesting, or were significant to me in some way.</div>
                             <div class="languages">
                                 <div class="row">
@@ -32,10 +32,10 @@
                                             <rect x="0" y="0" width="420" height="8" fill="white" rx="5"/>
                                         </mask>
                                         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                                        <rect mask="url(#languages-bar)" x="0" y="0" width="186.66666666666666" height="8" fill="#f34b7d"/>
-                                        <rect mask="url(#languages-bar)" x="186.66666666666666" y="0" width="140" height="8" fill="#555555"/>
-                                        <rect mask="url(#languages-bar)" x="326.66666666666663" y="0" width="46.666666666666664" height="8" fill="#7355dd"/>
-                                        <rect mask="url(#languages-bar)" x="373.3333333333333" y="0" width="46.666666666666664" height="8" fill="#dea584"/>
+                                        <rect mask="url(#languages-bar)" x="0" y="0" width="168" height="8" fill="#f34b7d"/>
+                                        <rect mask="url(#languages-bar)" x="168" y="0" width="168" height="8" fill="#555555"/>
+                                        <rect mask="url(#languages-bar)" x="336" y="0" width="42" height="8" fill="#7355dd"/>
+                                        <rect mask="url(#languages-bar)" x="378" y="0" width="42" height="8" fill="#dea584"/>
                                     </svg>
                                 </div>
                                 <div class="row">
@@ -48,7 +48,7 @@
                                                 C++
                                             </div>
                                             <small>
-                                                <div>44.44%</div>
+                                                <div>40%</div>
                                                 <div>4★</div>
                                             </small>
                                         </div>
@@ -60,7 +60,7 @@
                                                 C#
                                             </div>
                                             <small>
-                                                <div>11.11%</div>
+                                                <div>10%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
@@ -74,8 +74,8 @@
                                                 C
                                             </div>
                                             <small>
-                                                <div>33.33%</div>
-                                                <div>3★</div>
+                                                <div>40%</div>
+                                                <div>4★</div>
                                             </small>
                                         </div>
                                         <div class="field language details">
@@ -86,7 +86,7 @@
                                                 Rust
                                             </div>
                                             <small>
-                                                <div>11.11%</div>
+                                                <div>10%</div>
                                                 <div>1★</div>
                                             </small>
                                         </div>
